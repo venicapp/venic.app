@@ -1,0 +1,19 @@
+<script>
+	import NavButton from "./NavButton.svelte";
+
+</script>
+<nav class="px-10 py-6 flex justify-between">
+	<a href="/" class="text-lg font-semibold flex gap-4">
+		<img
+			class="w-6 h-6"
+			alt="logo"
+			src="https://cdn.discordapp.com/icons/1071191712698990684/d4d8766a4903d6dd7d0313e90e742931.webp?size=512"
+		/>
+		Venic
+	</a>
+<div class="flex gap-8">
+    <NavButton href="/blog">Blog</NavButton>
+    <NavButton href="https://github.com/venicme">Github</NavButton>
+    <NavButton href="https://discord.gg/dC8FHPXuQG">Discord</NavButton>
+</div >
+</nav>
