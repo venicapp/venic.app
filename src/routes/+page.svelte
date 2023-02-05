@@ -1,6 +1,8 @@
 <script>
+	import Button from "$lib/components/Button.svelte";
 	import NavHost from "../layout/Navbar/NavHost.svelte";
 </script>
+
 <NavHost/>
 <main class="wrapper my-8">
 	<div class="blur-wrapper">
@@ -19,7 +21,7 @@
 		</p>
 	</section>
 	<div class="mt-8 flex items-center text-center justify-center gap-4">
-		<button class="shadow-xl shadow-white/10 font-semibold text-black bg-white py-3 px-6 rounded-lg flex items-center">
+		<Button type="primary">
 			Sign up
 			<svg
 				class="stroke-2 fill-black w-4 h-4 ml-2"
@@ -28,8 +30,8 @@
 			>
 				<path d="m18.75 36.7-2.85-2.85 9.9-9.9-9.9-9.9 2.85-2.85L31.5 23.95Z" />
 			</svg>
-		</button>
-		<button class="font-semibold text-purple-100 bg-purple-400/10 ring-1 ring-purple-400/20 ring-inset py-3 px-6 rounded-lg"> Join the Discord </button>
+		</Button>
+		<Button type="secondary" href="https://discord.gg/dC8FHPXuQG">Join the Discord</Button>
 	</div>
 
     <img class="mt-16 w-4/5 mx-auto rounded-xl shadow-2xl shadow-blue-500/20" src="https://cdn.discordapp.com/attachments/1071198785050521712/1071199004743979118/MacBook_Pro_14__-_2.png" alt="profile page"/>
