@@ -17,6 +17,13 @@ hr {
     height: 1px;
     border: 0;
     padding: 0;
-    border-top: 1px solid theme('colors.zinc.800');
+    border-top: 1px solid theme("colors.zinc.800");
     margin: 1rem 0;
+}
+
+body {
+    overflow-x: hidden;
+    background: linear-gradient(180deg, transparent 0, theme("colors.black") 300px),
+        fixed 0 0 /20px 20px radial-gradient(theme("colors.zinc.700") 1px, transparent 0),
+        fixed 10px 10px /20px 20px radial-gradient(theme("colors.zinc.700") 1px, transparent 0);
 }

@@ -1,5 +1,5 @@
-<script>
-    export let href;
+<script lang="ts">
+	export let href: string;
 </script>
 
-<dv class="text-sm text-zinc-300"><slot/></dv >
+<a {href} class="text-sm text-zinc-300"><slot /></a>
