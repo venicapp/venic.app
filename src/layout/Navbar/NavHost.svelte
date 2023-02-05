@@ -7,7 +7,7 @@
 		<img
 			class="w-6 h-6"
 			alt="logo"
-			src="https://cdn.discordapp.com/icons/1071191712698990684/d4d8766a4903d6dd7d0313e90e742931.webp?size=512"
+			src="/venic_logo.png"
 		/>
 		<div class="text-xl font-semibold">Venic</div>
 	</a>
