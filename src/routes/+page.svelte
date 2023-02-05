@@ -27,7 +27,7 @@
 		<Button type="secondary" href="https://discord.gg/dC8FHPXuQG">Join the Discord</Button>
 	</div>
 
-    <img class="mt-16 w-4/5 mx-auto rounded-xl shadow-2xl shadow-blue-500/20" src="https://cdn.discordapp.com/attachments/1071198785050521712/1071199004743979118/MacBook_Pro_14__-_2.png" alt="profile page"/>
+    <img class="mt-16 w-4/5 mx-auto rounded-xl shadow-2xl shadow-blue-500/20" src="/hero.webp" alt="profile page"/>
 	
 	<div class="h-100 w-100 bg-black bg-[radial-gradient(#123_0.5px,#000_2.4px)] bg-[37px_37px]"/>
 </main>

@@ -7,7 +7,7 @@
 		<img
 			class="w-6 h-6"
 			alt="logo"
-			src="/venic_logo.png"
+			src="/venic_logo.webp"
 		/>
 		<div class="text-xl font-semibold">Venic</div>
 	</a>
