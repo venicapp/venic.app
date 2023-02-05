@@ -10,26 +10,19 @@
 		<div class="blur-right"></div>
 	</div>
 	<section class="flex items-center text-center justify-center flex-col">
-		<div
-			class="text-xs text-purple-300 bg-purple-300/10 py-1.5 px-3 mb-2 rounded-full ring-1 ring-purple-400/20 ring-inset backdrop-blur-lg"
-		>
-			Alpha Release
+		<div class="text-xs text-purple-300 bg-purple-300/10 py-1.5 px-3 mb-2 rounded-full ring-1 ring-purple-400/20 ring-inset backdrop-blur-lg">
+			Alpha Stage
 		</div>
-		<h1 class="font-medium text-7xl text-transparent bg-clip-text bg-gradient-to-br from-white to-zinc-400 pb-2">Venic is the future of commissioning</h1>
+		<h1 class="font-medium text-7xl text-transparent bg-clip-text bg-gradient-to-br from-white to-zinc-400 pb-2">
+			Venic is the future of commissioning
+		</h1>
 		<p class="text-gray-400 text-xl w-2/4 mt-4">
-			An open-sourced, community-driven service designed to help creators sell their content to the world. 
+			An open-sourced, community-driven platform designed to help creators sell their content to the world. 
 		</p>
 	</section>
 	<div class="mt-8 flex items-center text-center justify-center gap-4">
 		<Button type="primary">
-			Sign up
-			<svg
-				class="stroke-2 fill-black w-4 h-4 ml-2"
-				xmlns="http://www.w3.org/2000/svg"
-				viewBox="0 0 48 48"
-			>
-				<path d="m18.75 36.7-2.85-2.85 9.9-9.9-9.9-9.9 2.85-2.85L31.5 23.95Z" />
-			</svg>
+			Sign up →
 		</Button>
 		<Button type="secondary" href="https://discord.gg/dC8FHPXuQG">Join the Discord</Button>
 	</div>
@@ -43,24 +36,23 @@
 
 <main class="wrapper my-16">
 	<section class="">
-		<div
-			class="max-w-max text-xs text-purple-300 bg-purple-300/10 py-1.5 px-3 mb-2 rounded-full ring-1 ring-purple-400/20 ring-inset"
-		>
+		<div class="max-w-max text-xs text-purple-300 bg-purple-300/10 py-1.5 px-3 mb-2 rounded-full ring-1 ring-purple-400/20 ring-inset">
 			Revenue
 		</div>
-		<h2 class="font-medium text-4xl text-transparent bg-clip-text bg-gradient-to-br from-white to-zinc-400 pb-2">Your work, your money.</h2>
+		<h2 class="font-medium text-4xl text-transparent bg-clip-text bg-gradient-to-br from-white to-zinc-400 pb-2">
+			Your work, your money.
+		</h2>
 		<p class="text-gray-400 text-md mt-1 w-2/3">
-			Venic always keeps the best interest of creators in mind. Get paid 100% of the revenue; we will never take a cut (unless you want us to).
+			Venic always keeps the best interest of creators in mind. Get paid 100% of the revenue — we never take a cut (unless you want us to).
 		</p>
 	</section>
 </main>
+
 <hr/>
 
 <main class="wrapper my-16">
 	<section class="">
-		<div
-			class="max-w-max text-xs text-purple-300 bg-purple-300/10 py-1.5 px-3 mb-2 rounded-full ring-1 ring-purple-400/20 ring-inset"
-		>
+		<div class="max-w-max text-xs text-purple-300 bg-purple-300/10 py-1.5 px-3 mb-2 rounded-full ring-1 ring-purple-400/20 ring-inset">
 			Talent
 		</div>
 		<h2 class="font-medium text-4xl text-transparent bg-clip-text bg-gradient-to-br from-white to-zinc-400 pb-2">Find just about anything.</h2>
@@ -70,8 +62,21 @@
 	</section>
 </main>
 
+<div class="dots"/>
 
 <style>
+	.dots {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100vw;
+		height: 100%;
+		z-index: -999;
+		background: linear-gradient(180deg, transparent 0, theme("colors.black") 300px),
+        	fixed 0 0 /20px 20px radial-gradient(theme("colors.zinc.700") 1px, transparent 0),
+        	fixed 10px 10px /20px 20px radial-gradient(theme("colors.zinc.700") 1px, transparent 0);
+	}
+
 	.blur-wrapper {
 		filter: blur(175px);
 		z-index: -4;

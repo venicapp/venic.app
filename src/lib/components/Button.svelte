@@ -1,14 +1,15 @@
 <script>
 	export let type = '';
 	export let href = '';
+	export let rounded = false;
 </script>
 
 {#if href}
-	<a class="button-{type}" {href}>
+	<a class="button-{type}" class:rounded {href}>
 		<slot />
 	</a>
 {:else}
-	<button class="button-{type}" on:click>
+	<button class="button-{type}" class:rounded on:click>
 		<slot />
 	</button>
 {/if}
@@ -23,5 +24,9 @@
 	}
 	.button-secondary {
 		@apply font-semibold text-purple-100 bg-purple-400/10 ring-1 ring-purple-400/20 ring-inset rounded-lg;
+	}
+
+	.rounded {
+		@apply rounded-full;
 	}
 </style>

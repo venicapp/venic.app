@@ -7,6 +7,10 @@
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+:root {
+    color-scheme: dark;
+}
+
 .wrapper {
     margin-inline: auto;
     width: min(95%, 65rem) !important;
@@ -23,9 +27,4 @@ hr {
 
 body {
     overflow-x: hidden;
-    background: linear-gradient(180deg, transparent 0, theme("colors.black") 300px),
-        fixed 0 0 /20px 20px radial-gradient(theme("colors.zinc.700") 1px, transparent 0),
-        fixed 10px 10px /20px 20px radial-gradient(theme("colors.zinc.700") 1px, transparent 0);
 }
-
-
