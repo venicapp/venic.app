@@ -16,7 +16,7 @@
 
 <style>
     [class*="button-"] {
-        @apply rounded-lg flex items-center py-3 px-6;
+        @apply rounded-lg flex items-center justify-center py-3 px-6 text-center;
     }
 
 	.button-primary {

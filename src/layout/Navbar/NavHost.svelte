@@ -9,11 +9,11 @@
 			alt="logo"
 			src="/venic_logo.webp"
 		/>
-		<div class="text-xl font-semibold">Venic</div>
+		<div class="text-xl font-medium">Venic</div>
 	</a>
 	<div class="flex gap-8">
 		<NavButton href="/blog">Blog</NavButton>
-		<NavButton href="https://github.com/venicme">Github</NavButton>
+		<NavButton href="https://github.com/venicme">GitHub</NavButton>
 		<NavButton href="https://discord.gg/dC8FHPXuQG">Discord</NavButton>
 	</div>
 </nav>

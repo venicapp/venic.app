@@ -21,13 +21,13 @@
 		</p>
 	</section>
 	<div class="mt-8 flex items-center text-center justify-center gap-4">
-		<Button type="primary">
+		<Button type="primary" href="/register">
 			Sign up →
 		</Button>
 		<Button type="secondary" href="https://discord.gg/dC8FHPXuQG">Join the Discord</Button>
 	</div>
 
-    <img class="mt-16 w-4/5 mx-auto rounded-xl shadow-2xl shadow-blue-500/20" src="/hero.webp" alt="profile page"/>
+    <div class="mx-auto mt-16 w-4/5 rounded-2xl"><img class=" rounded-xl shadow-2xl shadow-blue-500/20" src="/hero.webp" alt="profile page"/></div>
 	
 	<div class="h-100 w-100 bg-black bg-[radial-gradient(#123_0.5px,#000_2.4px)] bg-[37px_37px]"/>
 </main>
